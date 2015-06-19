@@ -1,0 +1,35 @@
+<!Doctype html>
+<head>
+	<title></title>
+	
+</head>
+<body>
+	
+	<div id="navBg">
+		<ul>
+			<li><a href="contact-us.erb">CONTACT</a></li>
+			<li><a href="residential.erb" >RESIDENTIAL</a></li>
+			<li class="active"><a href="home.erb">HOME</a></li>	
+			
+		</ul>
+	</div>
+	<header>
+			<div id="logo">
+				<a href="home.erb">
+					<img src="assets/Images/sflm_logo_01.png">
+					<h5>SOUTH FLORIDA LUXURY MARKET</h5>
+				</a>
+			</div>
+
+	</header>
+
+	
+
+	<%= yield %>
+
+	<div id="footer">
+		&copy; 2015 SFLM. All Rights Reserved. Website Designed and Developed by Cristian and <a href="http://nycda.zone/roberts23/" target="_blank">Tameka</a>
+	</div>
+	
+</body>
+</html>
