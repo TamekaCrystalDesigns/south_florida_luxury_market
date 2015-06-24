@@ -81,7 +81,7 @@ header #logo h5 {
 	  border-radius: 3px;
 	color: #333;
 	margin: 0% auto 15% auto;
-	max-width: 950px;
+	max-width: 765px;
   	padding: 2% 2% 5% 2%;
   	position: relative;
 	overflow: hidden;
@@ -92,6 +92,14 @@ header #logo h5 {
 	font-size: 36px;
 	text-align: center;
 	text-shadow: -2px 2px 30px #000;
+}
+input[type="submit"]{
+	background: green;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 1% auto auto;
+	padding: 2.5% 5%;
+	width: 100%;
 }
 #footer a {
 	color: sienna;
